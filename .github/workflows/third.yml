@@ -8,6 +8,6 @@ jobs:
     name: third file for practice
     runs-on: ubuntu-latest
     steps:
-      run: echo "this is buid job"
+     - run: echo "this is buid job"
   
       
