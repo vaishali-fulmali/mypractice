@@ -2,12 +2,10 @@ name: first workflow
 on:
   push: 
       branches: 
-        -main
+        - main
     workflow_dispatch:
 jobs:
   build:
-    runs-on:
-      - ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
-      - run: 
-          echo "first workflow build stage"
+      - run: echo "first workflow build stage"
