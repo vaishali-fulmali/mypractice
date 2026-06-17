@@ -1,0 +1,13 @@
+name: third yamal file
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    name: third file for practice
+    runs-on: ubuntu-latest
+    steps:
+      echo "this is buid job"
+  
+      
